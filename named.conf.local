@@ -1,9 +1,0 @@
-zone "okd.local" {
-    type master;
-    file "/etc/named/zones/db.okd.local"; # zone file path
-};
-
-zone "20.10.10.in-addr.arpa" {
-    type master;
-    file "/etc/named/zones/db.10.10.20";  # 10.10.20.0/24 subnet
-};
